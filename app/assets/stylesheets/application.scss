@@ -16,3 +16,13 @@
 
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+
+/* ITCSS */
+
+@import 'components/_components',
+'elements/_elements',
+'generic/_generic',
+'objects/_objects',
+'settings/_settings',
+'tools/_tools',
+'utilities/_utilities';
